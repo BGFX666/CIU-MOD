@@ -1,0 +1,32 @@
+{
+	"configurations": [
+		{
+			"name": "ARM64-Release",
+			"generator": "Ninja",
+			"configurationType": "Release",
+			"inheritEnvironments": [ "android" ],
+			"cmakeExecutable": "C:/Users/wangm/AppData/Local/Android/Sdk/cmake/4.0.2/bin/cmake.exe",
+			"cmakeToolchain": "D:/VS2022/Shared/Android/AndroidNDK/android-ndk-r27d/build/cmake/android.toolchain.cmake",
+			"buildRoot": "${projectDir}/build/ARM64-Release",
+			"installRoot": "${projectDir}/install/ARM64-Release",
+			"variables": [
+				{
+					"name": "ANDROID_ABI",
+					"value": "arm64-v8a",
+					"type": "STRING"
+				},
+				{
+					"name": "ANDROID_PLATFORM",
+					"value": "android-24",
+					"type": "STRING"
+				},
+				{
+					"name": "ANDROID_STL",
+					"value": "c++_static",
+					"type": "STRING" 
+				}
+			],
+			"intelliSenseMode": "android-clang-arm64"
+		}
+	]
+}
